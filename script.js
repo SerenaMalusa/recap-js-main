@@ -96,9 +96,6 @@ const parole = frase.split(' ');
 const stelline = '***********';
 console.log(stelline);
 
-let parolaPiùLunga = '';
-let lunghezzaMax = 0;
-
 for (i=0; i < parole.length; i++) {
     let parola = parole[i];
     
